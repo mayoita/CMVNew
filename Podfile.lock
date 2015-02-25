@@ -1,0 +1,16 @@
+PODS:
+  - JPSThumbnailAnnotation (1.0.0)
+  - MBProgressHUD (0.8)
+  - SparkInspector (1.3.3)
+
+DEPENDENCIES:
+  - JPSThumbnailAnnotation
+  - MBProgressHUD (~> 0.8)
+  - SparkInspector
+
+SPEC CHECKSUMS:
+  JPSThumbnailAnnotation: 3146c1cc9bdfb5e12888cf6c85d8d35940e66c0d
+  MBProgressHUD: c356980b0cd097f19acec959b49dca5eb8ec31be
+  SparkInspector: 21a884205c1ac6c596751f2203ddb84d421910b3
+
+COCOAPODS: 0.32.1
