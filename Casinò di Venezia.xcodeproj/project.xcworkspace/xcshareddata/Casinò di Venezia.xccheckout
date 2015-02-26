@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>723F2992-C8BB-4DBA-B90B-7C48788B368A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Casinò di Venezia</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>362E9D456DC12DFD4EB99480F6B9C36062852CF0</key>
+		<string>https://github.com/mayoita/CMVNew.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Casinò di Venezia.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>362E9D456DC12DFD4EB99480F6B9C36062852CF0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mayoita/CMVNew.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>362E9D456DC12DFD4EB99480F6B9C36062852CF0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>362E9D456DC12DFD4EB99480F6B9C36062852CF0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CMVNew</string>
+		</dict>
+	</array>
+</dict>
+</plist>
