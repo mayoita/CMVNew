@@ -47,10 +47,17 @@
     //}
     
     self.delegate=self;
-    
+    int i = 0;
     for (UITabBarItem *item in self.tabBar.items)  {
         item.titlePositionAdjustment = UIOffsetMake(0, -15.0);
-        
+        if (i == 1) {
+            item.titlePositionAdjustment = UIOffsetMake(-3, -15.0);
+        } else if (i == 3) {
+            item.titlePositionAdjustment = UIOffsetMake(3, -15.0);
+        } else {
+            item.titlePositionAdjustment = UIOffsetMake(0, -15.0);
+        }
+        i = i + 1;
     }
     //Sliding feature set up
     self.view.layer.shadowOpacity=0.75f;

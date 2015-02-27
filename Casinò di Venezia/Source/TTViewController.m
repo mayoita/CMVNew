@@ -35,7 +35,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+   
     //initial setup of the TTScrollSlidingPagesController. 
     self.slider = [[TTScrollSlidingPagesController alloc] init];
 

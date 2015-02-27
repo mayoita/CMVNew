@@ -39,6 +39,7 @@ int Office;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     self.imageHeight.constant= self.view.frame.size.width*aspectRatioImage;
         self.styles=[[CMVStyles alloc] init];
     if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
@@ -54,6 +55,7 @@ int Office;
     //[self attributedTextCNInfo];
     self.mainTabBarController = (CMVMainTabbarController *)self.tabBarController;
     [self.mainTabBarController setCenterButtonDelegate:self];
+  
 }
 -(void)viewWillLayoutSubviews {
     self.textView.contentOffset=CGPointZero;

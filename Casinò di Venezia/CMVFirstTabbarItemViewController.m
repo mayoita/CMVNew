@@ -76,7 +76,7 @@ BOOL loadedLM = 0;
     [self setOffHelper];
     self.chatWithUs.layer.cornerRadius = 4.0;
     self.chatWithUs.layer.masksToBounds = YES;
-
+  
     //CRMotion
 //    CRMotionView *motionView = [[CRMotionView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
 //    self.myMotionView=motionView;
