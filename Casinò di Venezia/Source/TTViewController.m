@@ -7,7 +7,6 @@
 //
 
 #import "TTViewController.h"
-
 #import "TTScrollSlidingPagesController.h"
 #import "CMVSwipeTableViewCellController.h"
 #import "CMVGameTableViewController.h"

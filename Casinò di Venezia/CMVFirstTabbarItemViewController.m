@@ -20,7 +20,6 @@
 #import "CMVCheckWeekDay.h"
 #import "CMVArrowChat.h"
 #import "GAIDictionaryBuilder.h"
-#import "TTTAttributedLabel.h"
 
 
 #import <Parse/Parse.h>
@@ -31,7 +30,6 @@
 @interface CMVFirstTabbarItemViewController () {
     DVOMarqueeView *labelMarquee;
 }
-@property (weak, nonatomic) IBOutlet TTTAttributedLabel *diciottopiu;
 
 @property (weak, nonatomic) IBOutlet UILabel *chatWithUs;
 @property (weak, nonatomic) IBOutlet CMVArrowChat *arrowChat;
@@ -75,8 +73,6 @@ BOOL loadedLM = 0;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self setDiciottopiu];
-   
     [self setOffHelper];
     self.chatWithUs.layer.cornerRadius = 4.0;
     self.chatWithUs.layer.masksToBounds = YES;
@@ -384,19 +380,5 @@ BOOL loadedLM = 0;
    // [self.slidingViewController anchorTopViewTo:ECRight];
 }
 
--(void)setDiciottopiu {
-    self.diciottopiu.linkAttributes = [NSDictionary dictionaryWithObject:[NSNumber numberWithBool:YES] forKey:(__bridge NSString *)kCTUnderlineStyleAttributeName];
-    
-    self.diciottopiu.enabledTextCheckingTypes = NSTextCheckingTypeLink; // Automatically detect links when the label text is subsequently changed
-    self.diciottopiu.delegate = self;
-    self.diciottopiu.text = NSLocalizedString(@"UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE. GO TO PROBABILITY OF WINNING.", @"per diciottopiù"); // Repository URL will be automatically detected and linked
-    
-    NSRange range = [ self.diciottopiu.text rangeOfString:NSLocalizedString(@"GO TO PROBABILITY OF WINNING.", nil)];
-    [ self.diciottopiu addLinkToURL:[NSURL URLWithString:@"http://www.casinovenezia.it/en/probability-winning.html"] withRange:range];
-}
 
-- (void)attributedLabel:(__unused TTTAttributedLabel *)label
-   didSelectLinkWithURL:(NSURL *)url {
-    [[UIApplication sharedApplication] openURL:url];
-}
 @end

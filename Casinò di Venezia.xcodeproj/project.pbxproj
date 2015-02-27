@@ -220,7 +220,6 @@
 		22AA7BC31880227A0028A4FA /* CMVPokerHourTableViewZoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA7BC21880227A0028A4FA /* CMVPokerHourTableViewZoom.m */; };
 		22AAC67F1987E7200035BBB4 /* CMVBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AAC67E1987E7200035BBB4 /* CMVBackButton.m */; };
 		22AAC68119893BEB0035BBB4 /* TimetableCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AAC68019893BEB0035BBB4 /* TimetableCell.png */; };
-		22ABBB721A9FC19900F7832F /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ABBB711A9FC19900F7832F /* TTTAttributedLabel.m */; };
 		22AF4A5118D0B3F1003D0652 /* CMVTextForGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AF4A5018D0B3F1003D0652 /* CMVTextForGame.m */; };
 		22AF513B18E174BC006568DA /* CMVMenuRestaurantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AF513A18E174BC006568DA /* CMVMenuRestaurantViewController.m */; };
 		22AF513E18E1835F006568DA /* CMVMenuRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AF513D18E1835F006568DA /* CMVMenuRestaurant.m */; };
@@ -923,8 +922,6 @@
 		22AAC67D1987E7200035BBB4 /* CMVBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMVBackButton.h; sourceTree = "<group>"; };
 		22AAC67E1987E7200035BBB4 /* CMVBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMVBackButton.m; sourceTree = "<group>"; };
 		22AAC68019893BEB0035BBB4 /* TimetableCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimetableCell.png; sourceTree = "<group>"; };
-		22ABBB701A9FC19900F7832F /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
-		22ABBB711A9FC19900F7832F /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
 		22AE7DA6190FA5C300F0A5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		22AF4A4F18D0B3F1003D0652 /* CMVTextForGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMVTextForGame.h; sourceTree = "<group>"; };
 		22AF4A5018D0B3F1003D0652 /* CMVTextForGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMVTextForGame.m; sourceTree = "<group>"; };
@@ -1923,15 +1920,6 @@
 			name = "Old - 6.0";
 			sourceTree = "<group>";
 		};
-		22ABBB6F1A9FC14A00F7832F /* TTTAttributedLabel */ = {
-			isa = PBXGroup;
-			children = (
-				22ABBB701A9FC19900F7832F /* TTTAttributedLabel.h */,
-				22ABBB711A9FC19900F7832F /* TTTAttributedLabel.m */,
-			);
-			name = TTTAttributedLabel;
-			sourceTree = "<group>";
-		};
 		22B15F5C1A8A5D2B00E41FC5 /* parse */ = {
 			isa = PBXGroup;
 			children = (
@@ -2352,7 +2340,6 @@
 		22FA36A1184610B100D8A8C8 /* Third */ = {
 			isa = PBXGroup;
 			children = (
-				22ABBB6F1A9FC14A00F7832F /* TTTAttributedLabel */,
 				22CA94A41A7914A1007ABFCF /* HSLocalization */,
 				220959F01A23724100E54315 /* Helpshift.h */,
 				22CED5921A375A4100C9EEB6 /* HSResources */,
@@ -2488,7 +2475,6 @@
 						};
 					};
 					22CF447C181A9AD70062FC38 = {
-						DevelopmentTeam = 93MU66AW6P;
 						TestTargetID = 22CF4458181A9AD70062FC38;
 					};
 				};
@@ -2778,7 +2764,6 @@
 				22C09456183FBE51008F4E77 /* ZBMStaticMenu.m in Sources */,
 				2203C51219D5985C003739B4 /* MZFormSheetController.m in Sources */,
 				22A349931844C08200D2B543 /* CMVMapViewController.m in Sources */,
-				22ABBB721A9FC19900F7832F /* TTTAttributedLabel.m in Sources */,
 				2230D816181E6A180060C568 /* CMVSwipeTableViewCellController.m in Sources */,
 				CD429E2A18C3A1AB0015ED37 /* CRMotionView.m in Sources */,
 				22679413191BB34F00D0A447 /* CMVPermissionRequestPush.m in Sources */,
@@ -3427,7 +3412,7 @@
 					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "c0cf7dfa-35a4-43da-8304-65cfca4da51e";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -3454,7 +3439,7 @@
 					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "c0cf7dfa-35a4-43da-8304-65cfca4da51e";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -3463,8 +3448,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Casinò di Venezia.app/Casinò di Venezia";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -3478,7 +3461,6 @@
 				);
 				INFOPLIST_FILE = "Casinò di VeneziaTests/Casinò di VeneziaTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -3488,8 +3470,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Casinò di Venezia.app/Casinò di Venezia";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -3499,7 +3479,6 @@
 				GCC_PREFIX_HEADER = "Casinò di Venezia/Casinò di Venezia-Prefix.pch";
 				INFOPLIST_FILE = "Casinò di VeneziaTests/Casinò di VeneziaTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};

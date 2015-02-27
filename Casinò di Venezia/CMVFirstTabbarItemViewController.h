@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "CMVMainTabbarController.h"
-#import "TTTAttributedLabel.h"
 
 
 
-@interface CMVFirstTabbarItemViewController : UIViewController <CenterButtonDelegate, TTTAttributedLabelDelegate>
+
+@interface CMVFirstTabbarItemViewController : UIViewController <CenterButtonDelegate>
 @property (weak, nonatomic) IBOutlet UIButton *openHelp;
 @property(weak,nonatomic)CMVMainTabbarController *mainTabBarController;
 
