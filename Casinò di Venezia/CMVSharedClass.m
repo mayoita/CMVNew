@@ -11,10 +11,10 @@
 #import "CMVAppDelegate.h"
 #import <Bolts/Bolts.h>
 
+
 @implementation CMVSharedClass
 BOOL loadedE = 0;
 BOOL loadedT = 0;
-
 
 
 -(NSMutableArray *)retrieveObjects:(NSString *)className eventType:(int)eventChar office:(int)officeLocation tableView:(UITableView *)myTableView {

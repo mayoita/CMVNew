@@ -384,6 +384,7 @@
 		22D7DF0518BF71AD00A0EAE1 /* Swipe_Right.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D7DF0418BF71AD00A0EAE1 /* Swipe_Right.png */; };
 		22D7DF0718BF730F00A0EAE1 /* Swipe_Right_Up.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D7DF0618BF730F00A0EAE1 /* Swipe_Right_Up.png */; };
 		22D7DF0918BF732300A0EAE1 /* Swipe_Right_Up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D7DF0818BF732300A0EAE1 /* Swipe_Right_Up@2x.png */; };
+		22D881301AA0BBB000399411 /* CMVLoadData.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D8812F1AA0BBB000399411 /* CMVLoadData.m */; };
 		22D88AA219E7D6170035D1CD /* CMVBarCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D88AA119E7D6170035D1CD /* CMVBarCode.m */; };
 		22D88AA619E7DBB00035D1CD /* CMVBarCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D88AA519E7DBB00035D1CD /* CMVBarCodeController.m */; };
 		22D9DBD919DC19FD005AB952 /* BK_date_PokerHouriPAD.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D9DBD819DC19FD005AB952 /* BK_date_PokerHouriPAD.png */; };
@@ -400,6 +401,8 @@
 		22DF1D8018F6DD6900E533FE /* RPSlidingMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DF1D7D18F6DD6900E533FE /* RPSlidingMenuViewController.m */; };
 		22DF1D8718F6F5EE00E533FE /* 37x-Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DF1D8518F6F5EE00E533FE /* 37x-Checkmark.png */; };
 		22DF1D8818F6F5EE00E533FE /* 37x-Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DF1D8618F6F5EE00E533FE /* 37x-Checkmark@2x.png */; };
+		22DF9EE41AA06A7700CC52D0 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DF9EE31AA06A7700CC52D0 /* TTTAttributedLabel.m */; };
+		22DF9EE71AA0789D00CC52D0 /* CMVDiciottoPiu.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DF9EE61AA0789D00CC52D0 /* CMVDiciottoPiu.m */; };
 		22EF4F821892AD1100A8FD79 /* CMVCupButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EF4F811892AD1100A8FD79 /* CMVCupButton.m */; };
 		22EF4F881892C1F000A8FD79 /* CMVVPC.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EF4F871892C1F000A8FD79 /* CMVVPC.m */; };
 		22EFDDEA18B3B80900EFB441 /* CMVSharedClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EFDDE918B3B80900EFB441 /* CMVSharedClass.m */; };
@@ -1149,6 +1152,8 @@
 		22D7DF0418BF71AD00A0EAE1 /* Swipe_Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swipe_Right.png; sourceTree = "<group>"; };
 		22D7DF0618BF730F00A0EAE1 /* Swipe_Right_Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swipe_Right_Up.png; sourceTree = "<group>"; };
 		22D7DF0818BF732300A0EAE1 /* Swipe_Right_Up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Swipe_Right_Up@2x.png"; sourceTree = "<group>"; };
+		22D8812E1AA0BBB000399411 /* CMVLoadData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMVLoadData.h; sourceTree = "<group>"; };
+		22D8812F1AA0BBB000399411 /* CMVLoadData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMVLoadData.m; sourceTree = "<group>"; };
 		22D88AA019E7D6170035D1CD /* CMVBarCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMVBarCode.h; sourceTree = "<group>"; };
 		22D88AA119E7D6170035D1CD /* CMVBarCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMVBarCode.m; sourceTree = "<group>"; };
 		22D88AA419E7DBB00035D1CD /* CMVBarCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMVBarCodeController.h; sourceTree = "<group>"; };
@@ -1176,6 +1181,10 @@
 		22DF1D7D18F6DD6900E533FE /* RPSlidingMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSlidingMenuViewController.m; sourceTree = "<group>"; };
 		22DF1D8518F6F5EE00E533FE /* 37x-Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark.png"; sourceTree = "<group>"; };
 		22DF1D8618F6F5EE00E533FE /* 37x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark@2x.png"; sourceTree = "<group>"; };
+		22DF9EE21AA06A7700CC52D0 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		22DF9EE31AA06A7700CC52D0 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
+		22DF9EE51AA0789C00CC52D0 /* CMVDiciottoPiu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMVDiciottoPiu.h; sourceTree = "<group>"; };
+		22DF9EE61AA0789D00CC52D0 /* CMVDiciottoPiu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMVDiciottoPiu.m; sourceTree = "<group>"; };
 		22EF4F801892AD1100A8FD79 /* CMVCupButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMVCupButton.h; sourceTree = "<group>"; };
 		22EF4F811892AD1100A8FD79 /* CMVCupButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMVCupButton.m; sourceTree = "<group>"; };
 		22EF4F861892C1F000A8FD79 /* CMVVPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMVVPC.h; sourceTree = "<group>"; };
@@ -1756,6 +1765,10 @@
 				220D110B1848E8DB0075A172 /* MHDDismissModalView */,
 				22A349901844C07000D2B543 /* MapViewController */,
 				22CF44A5181A9B3E0062FC38 /* CMVMainTabbarController.h */,
+				22D8812E1AA0BBB000399411 /* CMVLoadData.h */,
+				22D8812F1AA0BBB000399411 /* CMVLoadData.m */,
+				22DF9EE51AA0789C00CC52D0 /* CMVDiciottoPiu.h */,
+				22DF9EE61AA0789D00CC52D0 /* CMVDiciottoPiu.m */,
 				22CF44A6181A9B3E0062FC38 /* CMVMainTabbarController.m */,
 				22752D781861A20500385D04 /* CMVFirstTabbarItemViewController.h */,
 				22752D791861A20500385D04 /* CMVFirstTabbarItemViewController.m */,
@@ -2301,6 +2314,15 @@
 			name = BarCode;
 			sourceTree = "<group>";
 		};
+		22DF9EE11AA06A5900CC52D0 /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				22DF9EE21AA06A7700CC52D0 /* TTTAttributedLabel.h */,
+				22DF9EE31AA06A7700CC52D0 /* TTTAttributedLabel.m */,
+			);
+			name = TTTAttributedLabel;
+			sourceTree = "<group>";
+		};
 		22ED9996187D493B004D9EFD /* PokerHour */ = {
 			isa = PBXGroup;
 			children = (
@@ -2340,6 +2362,7 @@
 		22FA36A1184610B100D8A8C8 /* Third */ = {
 			isa = PBXGroup;
 			children = (
+				22DF9EE11AA06A5900CC52D0 /* TTTAttributedLabel */,
 				22CA94A41A7914A1007ABFCF /* HSLocalization */,
 				220959F01A23724100E54315 /* Helpshift.h */,
 				22CED5921A375A4100C9EEB6 /* HSResources */,
@@ -2761,9 +2784,11 @@
 				22A8AE3419CC7BF30070A65C /* ECSlidingSegue.m in Sources */,
 				22C104171A52EE89002675A4 /* MBProgressHUD.m in Sources */,
 				22A8AE3119CC7BF30070A65C /* ECPercentDrivenInteractiveTransition.m in Sources */,
+				22DF9EE71AA0789D00CC52D0 /* CMVDiciottoPiu.m in Sources */,
 				22C09456183FBE51008F4E77 /* ZBMStaticMenu.m in Sources */,
 				2203C51219D5985C003739B4 /* MZFormSheetController.m in Sources */,
 				22A349931844C08200D2B543 /* CMVMapViewController.m in Sources */,
+				22DF9EE41AA06A7700CC52D0 /* TTTAttributedLabel.m in Sources */,
 				2230D816181E6A180060C568 /* CMVSwipeTableViewCellController.m in Sources */,
 				CD429E2A18C3A1AB0015ED37 /* CRMotionView.m in Sources */,
 				22679413191BB34F00D0A447 /* CMVPermissionRequestPush.m in Sources */,
@@ -2874,6 +2899,7 @@
 				CD95CE3F1860FC6700879213 /* KIViewController.m in Sources */,
 				222EED0C18CA2CB9004960E3 /* CMVLogIn.m in Sources */,
 				2246E9C51A24D8280083D12E /* TTBlackTriangle.m in Sources */,
+				22D881301AA0BBB000399411 /* CMVLoadData.m in Sources */,
 				22C3DE1E184F45DB00464BCF /* CMVGameSplitViewController.m in Sources */,
 				2203C51519D5985C003739B4 /* MZFormSheetBackgroundWindowViewController.m in Sources */,
 				22B91BFA19D98BC0000BC704 /* CMVTournamentCellNew.m in Sources */,

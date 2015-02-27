@@ -29,8 +29,8 @@
 #define PARSE_CLASS_NAME @"Events"
 #define EVENTS_INDEX 0
 
-#define VE 0
-#define CN 1
+#define VE @"VE"
+#define CN @"CN"
 
 @interface CMVSwipeTableViewCellController ()
 
@@ -53,8 +53,10 @@
     NSDate *today;
     NSDate *nextDay;
     BOOL dayFound;
+    NSString *Office;
+    NSMutableArray *storage;
 }
-int Office;
+
 
 
 - (void)viewDidLoad
@@ -111,7 +113,8 @@ int Office;
             [self.mainTabBarController setCenterButtonDelegate:self];
         }
     }
-    
+    [self fetchAllObjectsFromLocalDatastore];
+    [self fetchAllObjects];
 
     
 }
@@ -248,17 +251,30 @@ int Office;
         Office=CN;
         _sections=nil;
         dayFound=FALSE;
-        self.events=[shared retrieveObjects:PARSE_CLASS_NAME eventType:EVENTS_INDEX office:Office tableView:self.tableView];
+        self.events =[self filterMyArray:self.events inOffice:Office];
+        //self.events=[shared retrieveObjects:PARSE_CLASS_NAME eventType:EVENTS_INDEX office:Office tableView:self.tableView];
+        [self.tableView reloadData];
         [self.myScrollSliding changeTextColor:BRAND_GREEN_COLOR];
         self.tabBarController.tabBar.tintColor=BRAND_GREEN_COLOR;
     } else {
         Office=VE;
         _sections=nil;
         dayFound=FALSE;
-        self.events=[shared retrieveObjects:PARSE_CLASS_NAME eventType:EVENTS_INDEX office:Office tableView:self.tableView];
+        self.events =[self filterMyArray:self.events inOffice:Office];
+        //self.events=[shared retrieveObjects:PARSE_CLASS_NAME eventType:EVENTS_INDEX office:Office tableView:self.tableView];
+        [self.tableView reloadData];
         [self.myScrollSliding changeTextColor:[UIColor redColor]];
         self.tabBarController.tabBar.tintColor=BRAND_RED_COLOR;
     }
+}
+
+-(NSArray *)filterMyArray:(NSMutableArray *)theArray inOffice:(NSString *)theOffice{
+    
+    NSPredicate *pred = [NSPredicate predicateWithFormat:@"office == %@", theOffice];
+    NSArray *helper=[storage filteredArrayUsingPredicate:pred];
+    
+    return helper;
+    
 }
 
 -(NSMutableDictionary *)sections {
@@ -635,6 +651,51 @@ canEditRowAtIndexPath:(NSIndexPath *)indexPath {
     return NO;
 }
 
+-(void) fetchAllObjects {
+    
+    // if (parseReachable.isParseReachable() && (self.noteObjects.count == 0)) {
+    //  PFObject.unpinAllObjectsInBackgroundWithBlock(nil)
+    
+    
+    PFQuery *query = [PFQuery queryWithClassName:PARSE_CLASS_NAME];
+    
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        if (!error) {
+            
+            [PFObject pinAllInBackground:objects block:nil ];
+            [self fetchAllObjectsFromLocalDatastore];
+            
+        } else {
+            
+            NSLog(@"Error: %@ %@", error, [error userInfo]);
+        }
+    }];
+    
+    
+    
+}
+
+-(void) fetchAllObjectsFromLocalDatastore {
+    
+    
+    PFQuery *query = [PFQuery queryWithClassName:PARSE_CLASS_NAME];
+    
+    [query fromLocalDatastore];
+    
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        if (!error) {
+            storage = objects.mutableCopy;
+            [self.tableView reloadData];
+            //            [PFObject pinAllInBackground:objects block:nil ];
+            //            [self fetchAllObjectsFromLocalDatastore];
+            
+        } else {
+            
+            NSLog(@"Error: %@ %@", error, [error userInfo]);
+        }
+    }];
+    
+}
 
 
 @end

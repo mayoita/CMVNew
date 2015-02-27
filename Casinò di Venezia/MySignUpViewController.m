@@ -9,6 +9,7 @@
 #import "MySignUpViewController.h"
 #import <QuartzCore/QuartzCore.h>
 #import "CMVLogInFieldsBGThree.h"
+#import "CMVDiciottoPiu.h"
 
 
 @interface MySignUpViewController ()
@@ -35,14 +36,7 @@
         diciotto.frame=CGRectMake(27, 26, 30, 21);
         [self.view addSubview:diciotto];
         
-        UILabel *divieto =[[UILabel alloc] init];
-        divieto.text= NSLocalizedString(@"UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE.", nil);
-        divieto.font = GOTHAM_Medium(7);
-        divieto.numberOfLines = 0;
-        divieto.minimumScaleFactor = 0.5f;
-        divieto.frame=CGRectMake(61, 26, 240, 21);
-        divieto.adjustsFontSizeToFitWidth = YES;
-        divieto.textColor = [UIColor whiteColor];
+        CMVDiciottoPiu *divieto =[[CMVDiciottoPiu alloc] init];
         [self.view addSubview:divieto];
     }
         [self.signUpView.usernameField setValue:[NSNumber numberWithInt:0] forKey:@"separatorStyle"];

@@ -288,6 +288,12 @@
                                 <color key="textColor" red="0.9522858796" green="0.78729745370000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kDj-2i-60x" customClass="CMVDiciottoPiu">
+                                <rect key="frame" x="16" y="20" width="568" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -302,10 +308,14 @@
                             <constraint firstItem="6WH-K7-QS4" firstAttribute="top" secondItem="mM9-Y1-Bvi" secondAttribute="bottom" id="Iyi-Wr-TeN"/>
                             <constraint firstItem="mM9-Y1-Bvi" firstAttribute="leading" secondItem="nMi-JX-yPC" secondAttribute="leading" id="JPd-62-VBK"/>
                             <constraint firstItem="C7y-s2-KT1" firstAttribute="leading" secondItem="nMi-JX-yPC" secondAttribute="leadingMargin" id="NLP-4O-AAp"/>
+                            <constraint firstItem="kDj-2i-60x" firstAttribute="leading" secondItem="nMi-JX-yPC" secondAttribute="leadingMargin" id="NSD-Fm-MfY"/>
+                            <constraint firstItem="kDj-2i-60x" firstAttribute="trailing" secondItem="nMi-JX-yPC" secondAttribute="trailingMargin" id="NsW-oR-YA9"/>
                             <constraint firstItem="C7y-s2-KT1" firstAttribute="trailing" secondItem="nMi-JX-yPC" secondAttribute="trailingMargin" id="P3v-nT-emP"/>
                             <constraint firstAttribute="centerY" secondItem="C7y-s2-KT1" secondAttribute="centerY" constant="-0.5" id="UPi-vB-Mpb"/>
                             <constraint firstItem="W23-0p-x7F" firstAttribute="top" secondItem="P5n-uL-uah" secondAttribute="bottom" id="cZs-g6-xzu"/>
+                            <constraint firstItem="6WH-K7-QS4" firstAttribute="top" secondItem="kDj-2i-60x" secondAttribute="bottom" constant="3" id="dkz-1U-gFd"/>
                             <constraint firstItem="csz-n5-uGp" firstAttribute="trailing" secondItem="nMi-JX-yPC" secondAttribute="trailingMargin" id="eWD-UJ-xDt"/>
+                            <constraint firstItem="kDj-2i-60x" firstAttribute="top" secondItem="N5D-4p-4en" secondAttribute="bottom" id="ffc-Ld-yya"/>
                             <constraint firstItem="P5n-uL-uah" firstAttribute="leading" secondItem="nMi-JX-yPC" secondAttribute="leading" id="fqs-dR-7Tl"/>
                             <constraint firstItem="jt4-J3-t18" firstAttribute="leading" secondItem="nMi-JX-yPC" secondAttribute="leadingMargin" id="htB-GP-2ci"/>
                             <constraint firstAttribute="trailing" secondItem="P5n-uL-uah" secondAttribute="trailing" id="iKk-nc-ehd"/>
@@ -337,7 +347,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Game_detail_background_long.png" translatesAutoresizingMaskIntoConstraints="NO" id="b6X-aX-tuT">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="73I-jV-FBs">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="73I-jV-FBs" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="44" y="48" width="540" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="dzd-7v-r7L"/>
@@ -644,7 +654,7 @@
                                 </items>
                                 <color key="barTintColor" red="0.17254902420000001" green="0.31764706970000001" blue="0.2470588386" alpha="1" colorSpace="deviceRGB"/>
                             </toolbar>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="DBt-D1-ElT">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="DBt-D1-ElT" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="44" y="48" width="540" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Qj0-gs-xkj"/>
@@ -846,10 +856,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="5Ha-VD-iR3" customClass="CMVDiciottoPiu">
+                                <rect key="frame" x="16" y="20" width="568" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="L4t-xs-Qpz" firstAttribute="top" secondItem="iMK-2R-nID" secondAttribute="top" id="0Hr-Bs-TgM"/>
+                            <constraint firstItem="5Ha-VD-iR3" firstAttribute="leading" secondItem="iMK-2R-nID" secondAttribute="leadingMargin" id="7RQ-kQ-Vpd"/>
                             <constraint firstItem="dAg-3Q-X6B" firstAttribute="leading" secondItem="iMK-2R-nID" secondAttribute="leading" constant="16" id="Aks-t5-uye"/>
                             <constraint firstAttribute="trailing" secondItem="dAg-3Q-X6B" secondAttribute="trailing" constant="16" id="E9M-id-leO"/>
                             <constraint firstItem="L4t-xs-Qpz" firstAttribute="leading" secondItem="iMK-2R-nID" secondAttribute="leading" id="IyM-RX-fM3"/>
@@ -861,10 +878,13 @@
                             <constraint firstItem="dHT-d6-7n1" firstAttribute="leading" secondItem="iMK-2R-nID" secondAttribute="leading" id="b8t-Ci-zU4"/>
                             <constraint firstAttribute="centerY" secondItem="Av4-7p-B2Y" secondAttribute="centerY" constant="0.5" id="cqs-Zz-cAB"/>
                             <constraint firstAttribute="trailing" secondItem="Av4-7p-B2Y" secondAttribute="trailing" constant="16" id="cvb-80-1Uu"/>
+                            <constraint firstItem="5Ha-VD-iR3" firstAttribute="trailing" secondItem="iMK-2R-nID" secondAttribute="trailingMargin" id="feE-9e-Cuf"/>
+                            <constraint firstItem="5Ha-VD-iR3" firstAttribute="top" secondItem="hmV-k6-An7" secondAttribute="bottom" id="fiJ-9E-j2k"/>
                             <constraint firstItem="eXk-al-LT2" firstAttribute="top" secondItem="4ez-WW-iNA" secondAttribute="bottom" constant="20" id="fva-ve-195"/>
                             <constraint firstAttribute="trailing" secondItem="L4t-xs-Qpz" secondAttribute="trailing" id="fxd-jn-k5I"/>
                             <constraint firstItem="eXk-al-LT2" firstAttribute="top" secondItem="L4t-xs-Qpz" secondAttribute="bottom" id="okU-5J-cRx"/>
                             <constraint firstItem="dAg-3Q-X6B" firstAttribute="top" secondItem="1CR-p8-0av" secondAttribute="bottom" constant="15" id="riU-Nl-13Y"/>
+                            <constraint firstItem="1CR-p8-0av" firstAttribute="top" secondItem="5Ha-VD-iR3" secondAttribute="bottom" constant="3" id="tYL-8z-721"/>
                             <constraint firstItem="4ez-WW-iNA" firstAttribute="trailing" secondItem="iMK-2R-nID" secondAttribute="trailingMargin" id="u3l-HG-zD8"/>
                             <constraint firstItem="1CR-p8-0av" firstAttribute="top" secondItem="dHT-d6-7n1" secondAttribute="bottom" id="uWE-Pn-K7R"/>
                             <constraint firstAttribute="trailing" secondItem="dHT-d6-7n1" secondAttribute="trailing" id="xIi-FR-CKq"/>
@@ -1088,6 +1108,12 @@
                                 <color key="textColor" red="0.95228587962962952" green="0.78729745370370374" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gNC-NQ-v6P" customClass="CMVDiciottoPiu">
+                                <rect key="frame" x="16" y="20" width="568" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -1096,10 +1122,14 @@
                             <constraint firstItem="hjJ-eM-yeU" firstAttribute="top" secondItem="MFv-EQ-KeC" secondAttribute="top" id="Emu-2T-rqs"/>
                             <constraint firstItem="dOm-EY-HOV" firstAttribute="top" secondItem="hjJ-eM-yeU" secondAttribute="bottom" id="Grd-aB-BfO"/>
                             <constraint firstItem="3jb-jd-Z3f" firstAttribute="leading" secondItem="MFv-EQ-KeC" secondAttribute="leadingMargin" id="IN0-lo-7F5"/>
+                            <constraint firstItem="gNC-NQ-v6P" firstAttribute="leading" secondItem="MFv-EQ-KeC" secondAttribute="leading" constant="16" id="P20-9W-JZU"/>
+                            <constraint firstItem="7D0-J9-mNS" firstAttribute="top" secondItem="gNC-NQ-v6P" secondAttribute="bottom" constant="4" id="Qd9-NN-6te"/>
                             <constraint firstItem="XGT-UC-192" firstAttribute="top" secondItem="3jb-jd-Z3f" secondAttribute="bottom" constant="16" id="R0M-Mb-Eeg"/>
+                            <constraint firstAttribute="trailing" secondItem="gNC-NQ-v6P" secondAttribute="trailing" constant="16" id="SUI-t1-IZl"/>
                             <constraint firstAttribute="trailing" secondItem="8bs-tp-J72" secondAttribute="trailing" id="Se0-SA-R1W"/>
                             <constraint firstItem="3jb-jd-Z3f" firstAttribute="trailing" secondItem="MFv-EQ-KeC" secondAttribute="trailingMargin" id="ccQ-JC-k7f"/>
                             <constraint firstAttribute="trailing" secondItem="hjJ-eM-yeU" secondAttribute="trailing" id="cdl-1P-Fw6"/>
+                            <constraint firstItem="gNC-NQ-v6P" firstAttribute="top" secondItem="MFv-EQ-KeC" secondAttribute="top" constant="20" id="eX8-RU-WHf"/>
                             <constraint firstItem="7D0-J9-mNS" firstAttribute="top" secondItem="8bs-tp-J72" secondAttribute="bottom" id="egg-LO-YGP"/>
                             <constraint firstItem="hjJ-eM-yeU" firstAttribute="leading" secondItem="MFv-EQ-KeC" secondAttribute="leading" id="f7k-DN-CGe"/>
                             <constraint firstAttribute="trailing" secondItem="7D0-J9-mNS" secondAttribute="trailing" id="i3C-rh-fOV"/>
@@ -1364,7 +1394,7 @@
                                     <rect key="frame" x="20" y="20" width="280" height="26"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="TP5-D6-xhA">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="TP5-D6-xhA" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="68" y="16" width="512" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="xNf-ML-plF"/>
@@ -1467,7 +1497,7 @@
                                     <constraint firstAttribute="height" constant="1" id="eU3-C8-Y8M"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="7qh-yU-vRr">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="7qh-yU-vRr" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="68" y="16" width="512" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="hDv-iy-qJj"/>
@@ -1698,7 +1728,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="Ctr-7M-7Uf">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="Ctr-7M-7Uf" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="68" y="16" width="512" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="8oR-P7-CVX"/>
@@ -1887,7 +1917,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="r9Y-MB-z7f">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="r9Y-MB-z7f" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="78" y="20" width="499" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="IwJ-8V-aNX"/>
@@ -2081,7 +2111,7 @@
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="guD-xy-awq">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="guD-xy-awq" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="68" y="16" width="512" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="wXe-FE-9Kl"/>
@@ -2194,7 +2224,7 @@ Cg
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="aIi-xe-aXw">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="aIi-xe-aXw" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="68" y="16" width="512" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="TNq-1k-kQ8"/>
@@ -2685,7 +2715,7 @@ Cg
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="v6P-7F-7GZ">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="v6P-7F-7GZ" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="48" y="20" width="536" height="27"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="caz-Uh-grZ"/>
@@ -3212,7 +3242,7 @@ Cg
                                     <action selector="openHelp:" destination="TkS-Uh-jlf" eventType="touchUpInside" id="Nps-pV-lJm"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="242" translatesAutoresizingMaskIntoConstraints="NO" id="S80-pa-U6c">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="242" translatesAutoresizingMaskIntoConstraints="NO" id="S80-pa-U6c" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="44" y="20" width="502" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="XTa-cV-hdA"/>
@@ -3507,6 +3537,12 @@ Cg
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="TJz-1F-kK1" customClass="CMVDiciottoPiu">
+                                <rect key="frame" x="16" y="20" width="568" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -3514,10 +3550,13 @@ Cg
                             <constraint firstItem="wmr-AP-brK" firstAttribute="leading" secondItem="xDV-xd-NFl" secondAttribute="leading" id="5Qp-Ro-TWk"/>
                             <constraint firstItem="m2i-IY-GA2" firstAttribute="top" secondItem="xDV-xd-NFl" secondAttribute="top" id="5wr-rM-rHM"/>
                             <constraint firstItem="H6h-Mo-Bj5" firstAttribute="top" secondItem="wf6-rl-wAM" secondAttribute="bottom" constant="8" id="8fb-Ac-hKc"/>
+                            <constraint firstItem="TJz-1F-kK1" firstAttribute="leading" secondItem="xDV-xd-NFl" secondAttribute="leadingMargin" id="8l3-6X-CHo"/>
                             <constraint firstAttribute="trailing" secondItem="wmr-AP-brK" secondAttribute="trailing" id="B1N-G4-oIs"/>
                             <constraint firstItem="cIL-Ni-1Yg" firstAttribute="top" secondItem="H6h-Mo-Bj5" secondAttribute="bottom" constant="16" id="Fjs-LP-DSK"/>
                             <constraint firstAttribute="trailing" secondItem="wf6-rl-wAM" secondAttribute="trailing" id="Iv7-Nw-8Xm"/>
+                            <constraint firstItem="TJz-1F-kK1" firstAttribute="top" secondItem="sBQ-xc-FvB" secondAttribute="bottom" id="KM4-cQ-HV5"/>
                             <constraint firstAttribute="trailing" secondItem="m2i-IY-GA2" secondAttribute="trailing" id="VxV-cU-OGp"/>
+                            <constraint firstItem="wf6-rl-wAM" firstAttribute="top" secondItem="TJz-1F-kK1" secondAttribute="bottom" constant="4" id="c5d-iB-mrT"/>
                             <constraint firstItem="9nI-eN-lGh" firstAttribute="top" secondItem="cIL-Ni-1Yg" secondAttribute="bottom" constant="20" id="dFt-Wa-I6Q"/>
                             <constraint firstItem="9nI-eN-lGh" firstAttribute="top" secondItem="wmr-AP-brK" secondAttribute="bottom" id="gzz-eI-oMc"/>
                             <constraint firstAttribute="trailing" secondItem="H6h-Mo-Bj5" secondAttribute="trailing" constant="16" id="h5T-m3-dKJ"/>
@@ -3527,6 +3566,7 @@ Cg
                             <constraint firstAttribute="trailing" secondItem="cIL-Ni-1Yg" secondAttribute="trailing" constant="16" id="jdA-mC-Skl"/>
                             <constraint firstItem="wmr-AP-brK" firstAttribute="top" secondItem="xDV-xd-NFl" secondAttribute="top" id="oVW-0G-2pY"/>
                             <constraint firstItem="wf6-rl-wAM" firstAttribute="top" secondItem="m2i-IY-GA2" secondAttribute="bottom" id="rlS-vh-DzU"/>
+                            <constraint firstItem="TJz-1F-kK1" firstAttribute="trailing" secondItem="xDV-xd-NFl" secondAttribute="trailingMargin" id="wce-rW-at9"/>
                         </constraints>
                     </view>
                     <connections>
@@ -3563,7 +3603,7 @@ Cg
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="Zzl-b9-loA">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="Zzl-b9-loA" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="48" y="20" width="536" height="27"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="ZUm-Pl-bey"/>
@@ -3643,7 +3683,7 @@ Cg
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="VVp-sg-X2z">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="VVp-sg-X2z" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="48" y="20" width="536" height="27"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="qxd-oO-397"/>
@@ -3834,7 +3874,7 @@ Cg
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="AlQ-ab-GDE">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="AlQ-ab-GDE" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="68" y="16" width="512" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="2K8-qG-c9Y"/>
@@ -3987,7 +4027,7 @@ Cg
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="us3-7I-Q6c">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="us3-7I-Q6c" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="90" y="16" width="501" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="gRM-rZ-H2u"/>
@@ -4644,7 +4684,7 @@ Cg
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="Rak-VT-c53">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="Rak-VT-c53" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="44" y="44" width="536" height="27"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="nAX-0m-YNO"/>
@@ -5167,7 +5207,7 @@ Cg
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="qxX-tK-cge">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="qxX-tK-cge" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="68" y="16" width="512" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="L0B-sO-4Ae"/>
@@ -5320,7 +5360,7 @@ Cg
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="CQW-F2-QeU">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="CQW-F2-QeU" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="90" y="16" width="512" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="egB-U3-cM3"/>
@@ -5482,7 +5522,7 @@ Cg
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="jiw-4b-YeW">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="jiw-4b-YeW" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="90" y="16" width="500" height="30"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="13"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -5729,17 +5769,17 @@ Cg
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="fO0-O0-uGH">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNDER 18 ARE NOT ALLOWED TO GAMBLE. GAMBLING CAN BE PATHOLOGICALLY ADDICTIVE." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="256" translatesAutoresizingMaskIntoConstraints="NO" id="fO0-O0-uGH" customClass="CMVDiciottoPiu">
                                 <rect key="frame" x="90" y="16" width="500" height="30"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="13"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGz-UA-BJe" customClass="CMVMenuButton">
-                                <rect key="frame" x="15" y="15" width="35" height="35"/>
+                                <rect key="frame" x="10" y="25" width="44" height="33"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="M93-0h-BNs"/>
-                                    <constraint firstAttribute="width" constant="35" id="xmZ-Bg-oPW"/>
+                                    <constraint firstAttribute="height" constant="33" id="M93-0h-BNs"/>
+                                    <constraint firstAttribute="width" constant="44" id="xmZ-Bg-oPW"/>
                                 </constraints>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -5903,13 +5943,13 @@ Cg
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="2qb-qK-N3z" firstAttribute="top" secondItem="eGz-UA-BJe" secondAttribute="bottom" constant="6" id="32t-Y1-z1N"/>
+                            <constraint firstItem="2qb-qK-N3z" firstAttribute="top" secondItem="eGz-UA-BJe" secondAttribute="bottom" constant="-2" id="32t-Y1-z1N"/>
                             <constraint firstAttribute="trailing" secondItem="fO0-O0-uGH" secondAttribute="trailing" constant="10" id="4Ih-Bl-X3G"/>
                             <constraint firstItem="6z9-JO-9Ft" firstAttribute="top" secondItem="wQo-5P-4ly" secondAttribute="bottom" id="6Tc-d4-YI2"/>
                             <constraint firstItem="rwq-EY-B0i" firstAttribute="leading" secondItem="EJS-md-EY6" secondAttribute="leading" constant="10" id="78b-8L-6Yo"/>
                             <constraint firstAttribute="trailing" secondItem="rwq-EY-B0i" secondAttribute="trailing" constant="10" id="7zT-J9-BCj"/>
                             <constraint firstItem="fO0-O0-uGH" firstAttribute="leading" secondItem="RqL-9A-ZHO" secondAttribute="trailing" constant="5" id="DSU-2M-1iA"/>
-                            <constraint firstItem="RqL-9A-ZHO" firstAttribute="leading" secondItem="eGz-UA-BJe" secondAttribute="trailing" constant="5" id="GMs-s8-7Lb"/>
+                            <constraint firstItem="RqL-9A-ZHO" firstAttribute="leading" secondItem="eGz-UA-BJe" secondAttribute="trailing" constant="1" id="GMs-s8-7Lb"/>
                             <constraint firstAttribute="trailing" secondItem="wQo-5P-4ly" secondAttribute="trailing" constant="10" id="H6X-6D-9L3"/>
                             <constraint firstAttribute="trailing" secondItem="2qb-qK-N3z" secondAttribute="trailing" constant="10" id="HkE-yw-Zfh"/>
                             <constraint firstAttribute="trailing" secondItem="6z9-JO-9Ft" secondAttribute="trailing" constant="10" id="Jx7-Hf-6zW"/>
@@ -5918,14 +5958,14 @@ Cg
                             <constraint firstItem="ewq-CP-gJD" firstAttribute="top" secondItem="geI-wW-bew" secondAttribute="bottom" id="TCJ-dw-ZKr"/>
                             <constraint firstAttribute="trailing" secondItem="cUj-v2-8Aj" secondAttribute="trailing" constant="10" id="TcT-tZ-MVu"/>
                             <constraint firstItem="ewq-CP-gJD" firstAttribute="leading" secondItem="EJS-md-EY6" secondAttribute="leading" constant="10" id="VUH-Xz-4Wl"/>
-                            <constraint firstItem="eGz-UA-BJe" firstAttribute="leading" secondItem="EJS-md-EY6" secondAttribute="leading" constant="15" id="ZXc-2I-1ro"/>
+                            <constraint firstItem="eGz-UA-BJe" firstAttribute="leading" secondItem="EJS-md-EY6" secondAttribute="leading" constant="10" id="ZXc-2I-1ro"/>
                             <constraint firstItem="wQo-5P-4ly" firstAttribute="leading" secondItem="EJS-md-EY6" secondAttribute="leading" constant="10" id="c0M-AX-OCY"/>
                             <constraint firstItem="SjA-Sz-BUw" firstAttribute="top" secondItem="rwq-EY-B0i" secondAttribute="bottom" constant="10" id="dnO-GG-iil"/>
                             <constraint firstAttribute="trailing" secondItem="geI-wW-bew" secondAttribute="trailing" constant="10" id="e3p-O9-3Wy"/>
                             <constraint firstItem="6z9-JO-9Ft" firstAttribute="leading" secondItem="EJS-md-EY6" secondAttribute="leading" constant="10" id="f8g-L1-csB"/>
                             <constraint firstItem="fO0-O0-uGH" firstAttribute="top" secondItem="EJS-md-EY6" secondAttribute="top" constant="16" id="goj-ca-JaQ"/>
                             <constraint firstItem="RqL-9A-ZHO" firstAttribute="top" secondItem="kFF-UL-tji" secondAttribute="bottom" id="oEV-Pd-uBh"/>
-                            <constraint firstItem="eGz-UA-BJe" firstAttribute="top" secondItem="EJS-md-EY6" secondAttribute="top" constant="15" id="pEe-yJ-0jU"/>
+                            <constraint firstItem="eGz-UA-BJe" firstAttribute="top" secondItem="EJS-md-EY6" secondAttribute="top" constant="25" id="pEe-yJ-0jU"/>
                             <constraint firstItem="cUj-v2-8Aj" firstAttribute="leading" secondItem="EJS-md-EY6" secondAttribute="leading" constant="10" id="qWm-WK-f4Y"/>
                             <constraint firstItem="geI-wW-bew" firstAttribute="leading" secondItem="EJS-md-EY6" secondAttribute="leading" constant="10" id="rhO-Dv-OTe"/>
                             <constraint firstAttribute="trailing" secondItem="ewq-CP-gJD" secondAttribute="trailing" constant="10" id="vhi-wt-AnO"/>
